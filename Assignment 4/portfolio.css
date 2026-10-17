@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: #222;
+  font: 1rem/1.6 Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.nav,
+.nav-links,
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav,
+.section,
+.hero,
+.footer {
+  padding: 1.5rem 0;
+}
+
+.nav-links {
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.study-task {
+  display: block;
+}

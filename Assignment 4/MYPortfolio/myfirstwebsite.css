@@ -1,0 +1,42 @@
+.header {
+    font-size: 30px;
+    font-style: bold;
+}
+
+.intro {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.profilephoto img {
+    height: 250px;
+    border: 3px solid white;  
+    border-radius: 10px;        
+}
+
+.aboutme {
+    font-size: 25px;
+    font-style: bold;
+}
+.aboutme-h3 {
+    font-size: 22px;
+}
+
+.work {
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.Contact a {
+    color: white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Addition Using Callback</h2>
+    <input type="number" id="a" placeholder="Enter A">
+    <input type="number" id="b" placeholder="Enter B">
+
+    <button onclick="add()"> Add</button>
+    <h3 id="result"></h3>
+
+    <script>
+        function calculate(a, b, callback) {
+            callback(a + b);
+        }
+        function display(sum) {
+            document.getElementById("result").innerHTML = "The sum is: " + sum;
+        }
+        function add() {
+            const a = parseFloat(document.getElementById("a").value);
+            const b = parseFloat(document.getElementById("b").value);
+            calculate(a, b, display);
+        }
+    </script>
+</body>
+</html>
